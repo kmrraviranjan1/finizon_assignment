@@ -1,13 +1,9 @@
+import Screens from "./screens";
 
 function App() {
   return (
-    <div >
-      <header >
-        <p>
-          Hello Finizon
-        </p>
-    
-      </header>
+    <div >  
+        <Screens/>
     </div>
   );
 }
