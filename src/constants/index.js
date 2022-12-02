@@ -1,3 +1,3 @@
-import images from '../constants/image'
-
-export {images}
+import images from './image'
+import icons from './icons'
+export { images, icons }

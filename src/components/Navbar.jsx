@@ -30,7 +30,7 @@ const Navbar = () => {
 
         <img src={images.navLogo} alt="logo" />
   
-        <ul className="hidden md:flex">
+        <ul className="hidden lg:flex">
           {
             links.map(({ id, link, title }) => (
               <li key={id} className="capitalize px-4 py-2 cursor-pointer font-medium hover:scale-105 duration-200" >
@@ -45,7 +45,7 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <div onClick={() => { setResponsiveNav(!responsiveNav) }} className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden ">
+        <div onClick={() => { setResponsiveNav(!responsiveNav) }} className="cursor-pointer pr-4 z-10 text-gray-500 lg:hidden ">
           {responsiveNav ? <FaTimes size={30} /> : <img src={images.navBurger} alt="nav_more" />}
         </div>
 
