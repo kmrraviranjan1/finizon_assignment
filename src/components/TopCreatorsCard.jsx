@@ -2,7 +2,6 @@ import React from 'react'
 
 const TopCreatorsCard = ({ creator }) => {
     const { name, imageUrl, sales, rank } = creator
-    console.log("rank: ", rank);
     return (
         <div className="bg-[#3B3B3B] rounded-2xl relative">
             <p className="absolute top-3 left-1 rounded-full bg-black w-8 h-8 p-1 text-center">

@@ -75,6 +75,41 @@ const topCreators = [
     }
 ]
 
-const data = {topCreators}
+const categories = [
+    {
+        position:1,
+        title:"Art"
+    },
+    {
+        position:2,
+        title:"Collections"
+    },
+    {
+        position:3,
+        title:"Music"
+    },
+    {
+        position:4,
+        title:"Photography"
+    },
+    {
+        position:5,
+        title:"Video"
+    },
+    {
+        position:6,
+        title:"Utility"
+    },
+    {
+        position:7,
+        title:"Sport"
+    },
+    {
+        position:8,
+        title:"Virtual Worlds"
+    }
+]
+
+const data = {topCreators, categories}
 
 export default data
