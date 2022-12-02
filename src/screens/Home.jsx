@@ -1,5 +1,6 @@
 import React from 'react'
 import HomeHero from '../containers/HomeHero'
+import TopCreators from '../containers/TopCreators'
 import TrendingCollection from '../containers/TrendingCollection'
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <HomeHero/>
       <TrendingCollection/>
+      <TopCreators/>
     </div>
   )
 }
