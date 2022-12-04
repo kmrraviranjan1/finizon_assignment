@@ -41,7 +41,7 @@ const Navbar = () => {
 
           <li className="flex justify-center items-center bg-fuchsia-500 p-2 rounded-md">
             <img src={images.navBtnUser} alt="signup_user" />
-            <p className="mx-2">Sign Up</p>
+            <Link to="signup" className="mx-2">Sign Up</Link>
           </li>
         </ul>
 
@@ -62,7 +62,7 @@ const Navbar = () => {
 
               <li className="flex justify-center items-center bg-fuchsia-500 px-4 py-4 my-2 rounded-md">
                 <img src={images.navBtnUser} alt="signup_user" />
-                <p className="mx-2">Sign Up</p>
+                <Link to="signup" className="mx-2" smooth duration={500} onClick={() => (setResponsiveNav(!responsiveNav))}>Sign Up</Link>
               </li>
             </ul>
           )
